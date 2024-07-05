@@ -40,6 +40,40 @@ const Navbar = () => {
                     </Navlink>
                 </li>
             </ul>
+            <ul>
+                <li>
+                 bryan@dwwife
+                </li>
+                <li>
+                    <Navlink to='/MyOrders'>
+                       My Orders
+                    </Navlink>
+                </li> <li>
+                    <Navlink to='/MyAccount'>
+                       My Account
+                    </Navlink>
+                </li>
+                <li>
+                    <Navlink to='/Signin'>
+                    Signin
+                    </Navlink>
+                </li>
+                <li>
+                    <Navlink to='/furnitures'>
+                       Furnitures
+                    </Navlink>
+                </li>
+                <li>
+                    <Navlink to='/toys'>
+                       Toys
+                    </Navlink>
+                </li>
+                <li>
+                    <Navlink to='/others'>
+                        Others
+                    </Navlink>
+                </li>
+            </ul>
         </nav>
     )
 }
