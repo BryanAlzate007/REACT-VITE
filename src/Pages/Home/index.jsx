@@ -1,10 +1,13 @@
-function App(){
+import Layout from "../../Components/Layout"
+
+function Home({ children }){
 
     return (
-        <div className="bg-red-100">
-            Hola mundo
-        </div>
+        <Layout>
+            Home
+        </Layout>
+
     )
 }
 
-export default App
+export default Home

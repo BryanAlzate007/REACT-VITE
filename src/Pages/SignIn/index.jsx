@@ -1,11 +1,12 @@
 import Layout from "../../Components/Layout"
-function MyOrders(){
+
+function Signin(){
 
     return (
         <Layout className="bg-red-100">
-            MyOrders
+            Signin
         </Layout>
     )
 }
 
-export default MyOrders
+export default Signin
