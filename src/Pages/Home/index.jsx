@@ -1,15 +1,14 @@
-import Layout from "../../Components/Layout"
-import Card from "../../Components/Card"
+import Layout from '../../Components/Layout'
+import Card from '../../Components/Card'
 
-function Home({ children }){
-
-    return (
-        <Layout>
-            Home
-            <Card />
-        </Layout>
-
-    )
+const Home = () => {
+  return (
+    <Layout>
+      Home
+        <Card />
+    </Layout>
+    
+  )
 }
 
-export default Home
+export default Home;
